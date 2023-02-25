@@ -45,3 +45,7 @@ Username: <code>elastic</code>
 The password is in a file called "Password.txt" in the directory you ran Vagrant from,  
 this is the password to the super user account.  
 The password is printed to the console / terminal you ran <code>vagrant up</code> from.  
+
+# TODO
+Change <code>echo</code> to <code>printf</code>  
+Normalize all the <code>curl</code> calls  
