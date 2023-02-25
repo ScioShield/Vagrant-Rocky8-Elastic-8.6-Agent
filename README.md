@@ -11,7 +11,6 @@ CPU - 8 vCores
 Vagrantfile to setup single node ES + Kib + Fleet cluster  
 Bring up either Windows or Linux or both hosts with the following commands  
 The elastic cluster has to be started first  
-To start the Vagrant VM run <code>vagrant up</code>  
 ### Elastic + Windows
 <code>vagrant up elastic windows</code>  
 ### Elastic + Linux  
