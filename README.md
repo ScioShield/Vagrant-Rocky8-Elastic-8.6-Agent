@@ -48,4 +48,4 @@ The password is printed to the console / terminal you ran <code>vagrant up</code
 ## TODO
 Change <code>echo</code> to <code>printf</code>  
 Normalize all the <code>curl</code> calls  
-Add automation for "Custom Windows Event Logs" integration
+See how to add the Windows Agents as services
