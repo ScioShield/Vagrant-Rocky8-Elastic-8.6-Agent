@@ -529,6 +529,7 @@ sudo /opt/elastic-agent-$VER-linux-x86_64/elastic-agent install -f --url=https:/
 
 # Get the Windows policy id
 curl --silent --cacert /tmp/certs/ca/ca.crt -XGET "https://$DNS:$K_PORT/api/fleet/enrollment_api_keys" -H 'accept: application/json' -u elastic:$E_PASS | sed -e "s/\},{/'\n'/g" -e "s/items/'\n'/g" | grep -E -m1 $(cat /vagrant/WPid.txt) | grep -oP '[a-zA-Z0-9\=]{40,}' > /vagrant/WAEtoken.txt
+# Get the Linux policy id
 curl --silent --cacert /tmp/certs/ca/ca.crt -XGET "https://$DNS:$K_PORT/api/fleet/enrollment_api_keys" -H 'accept: application/json' -u elastic:$E_PASS | sed -e "s/\},{/'\n'/g" -e "s/items/'\n'/g" | grep -E -m1 $(cat /vagrant/LPid.txt) | grep -oP '[a-zA-Z0-9\=]{40,}' > /vagrant/LAEtoken.txt
 
 echo "To log into KLibana go to $DNS:$K_PORT"
