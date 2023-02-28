@@ -49,3 +49,4 @@ The password is printed to the console / terminal you ran <code>vagrant up</code
 Change <code>echo</code> to <code>printf</code>  
 Normalize all the <code>curl</code> calls  
 See how to add the Windows Agents as services
+Think about replacing funky <code>grep</code>s with jq

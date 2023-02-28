@@ -47,6 +47,7 @@ wget -nc -q https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-a
 wget -nc -q https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-$VER-windows-x86_64.zip.sha512 -P /vagrant
 
 wget -nc -q https://download.sysinternals.com/files/Sysmon.zip -P /vagrant
+wget -nc -q https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe -P /vagrant
 
 # We output to a temp password file allowing auto config later on
 tar -xf /vagrant/elastic-agent-$VER-linux-x86_64.tar.gz -C /opt/
