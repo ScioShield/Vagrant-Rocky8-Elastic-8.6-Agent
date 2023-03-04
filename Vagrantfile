@@ -28,7 +28,6 @@ Vagrant.configure("2") do |config|
   end
   config.vm.define "windows", autostart: false do |windows|
     windows.vm.box = "gusztavvargadr/windows-10-21h2-enterprise"
-    windows.vm.box_version = "2102.0.2202"
     windows.vm.hostname = 'windows-agent-8-6'
     windows.vm.box_url = "gusztavvargadr/windows-10-21h2-enterprise"
     windows.vm.provision :shell, privileged: "true", path: "AWBootstrap.ps1"
