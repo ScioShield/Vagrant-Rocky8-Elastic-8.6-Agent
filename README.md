@@ -35,7 +35,7 @@ Linux Bash
 
 ## Kibana  
 Log into Kibana (local)  
-<code>https://10.0.0.10:5601</code>  
+<code>https://192.168.56.10:5601</code>  
 <code>https://127.0.0.1:5601</code>  
 Log into Kibana (remote)  
 <code>https://elastic-8-6-agent:5601</code>  
@@ -48,5 +48,5 @@ The password is printed to the console / terminal you ran <code>vagrant up</code
 ## TODO
 Change <code>echo</code> to <code>printf</code>  
 Normalize all the <code>curl</code> calls  
-See how to add the Windows Agents as services
+See how to add the Windows Agents as services  
 Think about replacing funky <code>grep</code>s with jq
