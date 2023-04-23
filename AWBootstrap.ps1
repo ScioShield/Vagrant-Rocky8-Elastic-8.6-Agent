@@ -1,5 +1,5 @@
 # Add DNS for elastic
-Add-Content 'C:\Windows\System32\Drivers\etc\hosts' "10.0.0.10 elastic-8-6-agent"
+Add-Content 'C:\Windows\System32\Drivers\etc\hosts' "192.168.56.10 elastic-8-6-agent"
 
 # Unpack the archive
 Expand-Archive C:\vagrant\elastic-agent-8.6.1-windows-x86_64.zip -DestinationPath 'C:\Program Files\'

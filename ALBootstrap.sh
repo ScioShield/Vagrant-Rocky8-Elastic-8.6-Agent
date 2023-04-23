@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This will only work on Centos 7 (it has not been tested on other distros)
-echo "10.0.0.10 elastic-8-6-agent" >> /etc/hosts
+echo "192.168.56.10 elastic-8-6-agent" >> /etc/hosts
 # unpack the agent
 tar -xvf /vagrant/elastic-agent-8.6.1-linux-x86_64.tar.gz -C /opt/
 

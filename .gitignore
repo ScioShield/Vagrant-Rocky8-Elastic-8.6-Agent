@@ -1,0 +1,17 @@
+elastic-agent-*
+FIid.txt
+FPid.txt
+Ftoken.txt
+Git-*
+kibana-*
+WIid.txt
+LAEtoken.txt
+elasticsearch-*
+LIid.txt
+LPid.txt
+Sysmon.zip
+WAEtoken.txt
+WPid.txt
+.vagrant/*
+Password.txt
+ca.crt

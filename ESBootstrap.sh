@@ -10,7 +10,7 @@ done
 echo "online"
 
 # Install Elasticsearch, Kibana, and Unzip
-yum install -y unzip
+yum install -y unzip wget
 
 # Get the GPG key temp work around is to reenable SHA1 support for GPG keys, will update when Elastic move to 256/512
 # Run this when done
@@ -26,7 +26,7 @@ rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
 
 # var settings
 VER=8.6.1
-IP_ADDR=10.0.0.10
+IP_ADDR=192.168.56.10
 K_PORT=5601
 ES_PORT=9200
 F_PORT=8220
