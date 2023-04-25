@@ -254,7 +254,7 @@ curl --silent --cacert /tmp/certs/ca/ca.crt -XPUT "https://$DNS:$K_PORT/api/flee
     "fleet_server-fleet-server": {
       "enabled": true,
       "vars": {
-        "host": "10.0.0.10",
+        "host": "192.168.56.10",
         "port": [
           8220
         ],
